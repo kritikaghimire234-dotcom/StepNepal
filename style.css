@@ -464,12 +464,101 @@ select:focus{
         transition: transform 1s;
       }
 
-  
-       
-    
-         
-     
+    /*----------------hero------------------*/
 
+     .about-hero{
+        background: linear-gradient(to right, #f8caca, #eaa);
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .hero-text h1{
+        font-size: 40px;
+      }
+    /*----------------content------------------*/  
+    .about-content{
+        padding: 50px;
+        text-align: center;
+    }
+    .about-section{
+        opacity: 0;
+        transition: 0.3s;
+        display: none;
+    }
+    .about-section.active{
+        display: block;
+        opacity: 1;
+    }
+
+    /*----------------why-us------------------*/
+
+     .why-us{
+        padding: 40px;
+        text-align: center;
+    }
+
+     .features{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+     .box{
+        padding: 20px;
+        border: 1px solid #ddd;
+        width: 200px;
+    }
+
+    /*----------------footer------------------*/
+
+     .footer{
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    /*---------------contact-page--------------*/
+    
+    .contact-page {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    background: crimson;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Info */
+.contact-info {
+    text-align: left;
+}
 
 
 
